@@ -28,7 +28,7 @@ const App: React.FC = () => {
       }).addTo(map);
 
       locations.forEach(location => {
-        if (location.lat && location.lng) {
+        if (location.lat !== null && location.lng !== null) {
           const pulsingIcon = L.divIcon({
             className: 'custom-div-icon',
             html: `<div class='pulse-marker'></div>`,
