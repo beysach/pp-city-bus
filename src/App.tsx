@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import { Analytics } from '@vercel/analytics/react';
 import type { Location } from './types';
 import { processLocations } from './utils/locationProcessor';
 import { LocationDetailCard } from './components/LocationDetailCard';
@@ -62,6 +63,7 @@ const App: React.FC = () => {
 
   return (
     <div className="relative h-screen w-screen bg-gray-900 text-white">
+      <Analytics />
       <div className="absolute top-0 left-0 right-0 z-10 p-4 bg-gradient-to-b from-gray-900/80 to-transparent">
         <h1 className="text-2xl md:text-3xl font-bold text-center text-white drop-shadow-lg">
           Free Phnom Penh City Bus
