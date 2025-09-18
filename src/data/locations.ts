@@ -14,7 +14,7 @@ export const rawLocations: LocationData[] = [
     {
         location_title: "គោលដៅពីភ្នំពេញ-កំពង់ស្ពឺ-កែប-កំពត-ព្រះសីហនុ-កោះកុង",
         contact: ["069 307 424", "096 29 83 603", "078 222 141", "012 862 696", "070 749 009"],
-        google_map: "https://www.google.com/maps/place/%E1%9E%98%E1%9E%BC%E1%9E%9B%E1%9E%8A%E1%9F%92%E1%9E%8B%E1%9B%B6%E1%9E%93%E1%9E%91%E1%9F%90%E1%9E%96%E1%9E%A2%E1%9E%B6%E1%9E%80%E1%9E%B6%E1%9E%9F/@11.558812,104.8540028,18.25z/data=!4m6!3m5!1s0x310951dfcab8a899:0x7f0fe46216b5129f!8m2!3d11.5588584!4d104.8550511!16s%2Fg%2F11rkn71hn0?entry=tts"
+        google_map: "https://google.com/maps/place/មូលដ្ឋានទ័ពអាកាស/@11.558812,104.8540028,18.25z/data=!4m6!3m5!1s0x310951dfcab8a899:0x7f0fe46216b5129f!8m2!3d11.5588584!4d104.8550511!16s%2Fg%2F11rkn71hn0?entry=tts"
     },
     {
         location_title: "គោលដៅពីភ្នំពេញ-កំពង់ឆ្នាំង-ពោធិ៍សាត់-បាត់ដំបង-បន្ទាយមានជ័យ-ប៉ែលិន",
@@ -124,7 +124,7 @@ export const rawLocations: LocationData[] = [
     {
         location_title: "គោលដៅពីខេត្តក្រចេះ-ភ្នំពេញ",
         contact: ["081 555 604", "096 72 54 301", "088 25 80 974"],
-        google_map: "https://www.google.com/maps/place/Preabsor+Clinic+and+Maternity/@12.4959015,106.0146574,17z/data=!3m1!4b1!4m6!3m5!1s0x310d1bfa0fa93779:0x931b0d42a3d58d3b!8m2!3d12.4958963!4d106.0172323!16s%2Fg%2F11h2d3f59n?entry=ttu"
+        google_map: "https://www.google.com/maps/place/Child+Garden/@12.4958899,106.0169142,344m/data=!3m1!1e3!4m14!1m7!3m6!1s0x310d1bfa0fa93779:0x931b0d42a3d58d3b!2sPreabsor+Clinic+and+Maternity!8m2!3d12.4958963!4d106.0172323!16s%2Fg%2F11h2d3f59n!3m5!1s0x310d1a874d76c747:0x6028b2c33f4cedb4!8m2!3d12.4959503!4d106.0163354!16s%2Fg%2F1tg58kh0?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
         location_title: "គោលដៅពីខេត្តស្ទឹងត្រែង-ភ្នំពេញ",
