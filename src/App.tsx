@@ -29,6 +29,11 @@ const App: React.FC = () => {
 
       locations.forEach(location => {
         if (location.lat !== null && location.lng !== null) {
+          // By creating these constants, we help TypeScript's control flow analysis
+          // confirm that lat and lng are numbers within this block and its closures.
+          const lat = location.lat;
+          const lng = location.lng;
+
           const pulsingIcon = L.divIcon({
             className: 'custom-div-icon',
             html: `<div class='pulse-marker'></div>`,
@@ -36,10 +41,10 @@ const App: React.FC = () => {
             iconAnchor: [8, 8]
           });
 
-          const marker = L.marker([location.lat, location.lng], { icon: pulsingIcon }).addTo(map);
+          const marker = L.marker([lat, lng], { icon: pulsingIcon }).addTo(map);
           marker.on('click', () => {
             setSelectedLocation(location);
-            map.flyTo([location.lat, location.lng], 12);
+            map.flyTo([lat, lng], 12);
           });
         }
       });
