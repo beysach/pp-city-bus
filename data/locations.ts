@@ -228,7 +228,7 @@ export const rawLocations: LocationData[] = [
     ]
   },
   {
-    "google_map": "https://www.google.com/maps/place/Preabsor+Clinic+and+Maternity/@12.4959015,106.0146574,17z/data=!3m1!4b1!4m6!3m5!1s0x310d1bfa0fa93779:0x931b0d42a3d58d3b!8m2!3d12.4958963!4d106.0172323!16s%2Fg%2F11h2d3f59n",
+    "google_map": "https://www.google.com/maps/place/Child+Garden/@12.4959497,106.0165589,172m/data=!3m1!1e3!4m6!3m5!1s0x310d1a874d76c747:0x6028b2c33f4cedb4!8m2!3d12.4959503!4d106.0163354!16s%2Fg%2F1tg58kh0?entry=ttu&g_ep=EgoyMDI1MDkxNS4wIKXMDSoASAFQAw%3D%3D",
     "location_title": "គោលដៅពីខេត្តក្រចេះ-ភ្នំពេញ",
     "contact": [
       "081 555 604",
