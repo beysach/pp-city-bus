@@ -1,0 +1,5 @@
+{
+  "name": "Free Phnom Penh City Bus",
+  "description": "An interactive map showing the locations of free city bus services in Phnom Penh. Users can click on markers to view details and get directions.",
+  "requestFramePermissions": []
+}
